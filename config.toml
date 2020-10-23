@@ -1,0 +1,4 @@
+baseURL = "https://aleneum.github.io"
+languageCode = "en-us"
+title = "Hello there"
+theme = "papermod"
