@@ -1,4 +1,28 @@
-baseURL = "https://aleneum.github.io"
+baseURL = "https://alexn.eu"
 languageCode = "en-us"
-title = "Hello there"
+title = "Not much to see..."
 theme = "papermod"
+
+[params]
+
+socialIcons = [
+    { name = "github", link = "https://github.com/aleneum" },
+    { name = "stackoverflow", link = "https://stackoverflow.com/users/1617563/aleneum"},
+    { name = "twitter", link = "https://twitter.com/fuffzehnzeichen" },
+    { name = "codepen", link = "https://codepen.io/aleneum"},
+    { name = "youtube",  link = "https://www.youtube.com/channel/UCnb4zOgjZ1ojkLWBGWJeYRA"},
+    { name = "linkedin", link = "https://www.linkedin.com/in/alexander-neumann-9288a724/"}
+]
+
+[params.homeInfoParams]
+
+title = "It has to start somewhere ..."
+content = "Something something"
+
+
+#   socialIcons: # optional
+#        - name: "<platform>"
+#            url: "<link>"
+#        - name: "<platform 2>"
+#            url: "<link2>"
+
