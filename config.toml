@@ -5,6 +5,8 @@ theme = "papermod"
 
 [params]
 
+custom_css = ["css/custom.css"]
+
 socialIcons = [
     { name = "github", link = "https://github.com/aleneum" },
     { name = "stackoverflow", link = "https://stackoverflow.com/users/1617563/aleneum"},
@@ -19,10 +21,5 @@ socialIcons = [
 title = "It has to start somewhere ..."
 content = "Something something"
 
-
-#   socialIcons: # optional
-#        - name: "<platform>"
-#            url: "<link>"
-#        - name: "<platform 2>"
-#            url: "<link2>"
-
+[markup.goldmark.renderer]
+unsafe = true

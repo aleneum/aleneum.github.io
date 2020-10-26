@@ -1,3 +1,4 @@
 content/[^.]*
-static/[^.]*
+static/ox-hugo
 public
+*~
