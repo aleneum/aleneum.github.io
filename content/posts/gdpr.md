@@ -2,7 +2,7 @@
 title = "gdpr"
 author = ["Alexander Neumann"]
 date = 2022-09-21
-lastmod = 2022-09-22T17:23:37+02:00
+lastmod = 2022-09-22T17:29:43+02:00
 draft = false
 weight = 9001
 [menu]

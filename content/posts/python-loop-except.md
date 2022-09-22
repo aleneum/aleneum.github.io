@@ -2,7 +2,7 @@
 title = "Python for loops have an else clause"
 author = ["Alexander Neumann"]
 date = 2020-09-22T00:00:00+02:00
-lastmod = 2022-09-22T16:39:46+02:00
+lastmod = 2022-09-22T17:28:43+02:00
 tags = ["python"]
 draft = false
 weight = 2001
@@ -18,7 +18,9 @@ weight = 2001
 
 </div>
 
-Something that is not common knowledge is the fact that Python for loop can have an `else` clause:
+Something that is not common knowledge is the fact that Python for loop can have an `else` clause.
+An else clause is executed when a for loop ends normally without break being called.
+Internally, Python will trigger a `StopIteration` when this happens.
 
 ```python
 def check(target, iterable):
@@ -35,10 +37,5 @@ check("e", "a string")
 # >>> Seems like target is not in container.
 ```
 
-An else clause is executed when a for loop ends normally without break being called.
-Internally, Python will trigger a `StopIteration` when this happens.
-
 Such an else clause may save you some lines of codes when itterating in the middle of a complex function by getting rid of assignment checks or boolean flags.
 However, in the simplified example above using `return` instead of `break` and `else` would most likely produce code that is more robust and easier to comprehend as `for/else` is not a well-known construct.
-
-s

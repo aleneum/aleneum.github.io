@@ -12,8 +12,8 @@
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0200</pubDate>
       
       <guid>https://alexn.eu/posts/python-loop-except/</guid>
-      <description>Something that is not common knowledge is the fact that Python for loop can have an else clause:
-def check(target, iterable): for element in iterable: if element == target: print(&amp;#34;Jup, target is in container.&amp;#34;) break else: print(&amp;#34;Seems like target is not in container.&amp;#34;) check(&amp;#34;s&amp;#34;, &amp;#34;a string&amp;#34;) # &amp;gt;&amp;gt;&amp;gt; Jup, target is in container. check(&amp;#34;e&amp;#34;, &amp;#34;a string&amp;#34;) # &amp;gt;&amp;gt;&amp;gt; Seems like target is not in container. An else clause is executed when a for loop ends normally without break being called.</description>
+      <description>Something that is not common knowledge is the fact that Python for loop can have an else clause. An else clause is executed when a for loop ends normally without break being called. Internally, Python will trigger a StopIteration when this happens.
+def check(target, iterable): for element in iterable: if element == target: print(&amp;#34;Jup, target is in container.&amp;#34;) break else: print(&amp;#34;Seems like target is not in container.&amp;#34;) check(&amp;#34;s&amp;#34;, &amp;#34;a string&amp;#34;) # &amp;gt;&amp;gt;&amp;gt; Jup, target is in container.</description>
     </item>
     
   </channel>
