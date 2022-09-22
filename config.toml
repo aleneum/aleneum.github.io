@@ -1,6 +1,7 @@
 baseURL = "https://alexn.eu"
 title = "alexn.eu"
 theme = "PaperMod"
+publishDir = "docs"
 
 [languages.en]
 languageName = "English"
