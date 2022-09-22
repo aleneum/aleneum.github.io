@@ -7,9 +7,9 @@ languageName = "English"
 weight = 1
 
 [languages.en.taxonomies]
-category = "categories"
+# category = "categories"
 tag = "tags"
-series = "series"
+# series = "series"
 
 [[languages.en.menu.main]]
 name = "tags"
@@ -30,6 +30,13 @@ socialIcons = [
     { name = "orcid", url= "https://orcid.org/0000-0002-2190-5576"},
     { name = "email", url= "mailto:aleneum@gmail.com"}
 ]
+
+
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
 [params.editPost]
 URL =  "https://github.com/aleneum/aleneum.github.io/tree/gh-pages/content"
