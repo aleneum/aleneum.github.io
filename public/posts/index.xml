@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on alexn.eu</title>
+    <link>https://alexn.eu/posts/</link>
+    <description>Recent content in Posts on alexn.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alexn.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about me</title>
+      <link>https://alexn.eu/posts/about/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexn.eu/posts/about/</guid>
+      <description>My name is Alexander Neumann and I am currently working at CareTech OWL as a PostDoc Researcher. </description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://alexn.eu/posts/hello-world/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://alexn.eu/posts/hello-world/</guid>
+      <description>The first header This is a blog post 🚀!
+import os print(&amp;#34;foo&amp;#34;) </description>
+    </item>
+    
+  </channel>
+</rss>
