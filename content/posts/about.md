@@ -1,10 +1,9 @@
 +++
 title = "about me"
 author = ["Alexander Neumann"]
-date = 2022-09-22
-lastmod = 2022-09-22T15:12:14+02:00
+date = 2022-09-21
+lastmod = 2022-09-22T16:41:58+02:00
 draft = false
-weight = 2001
 [menu]
   [menu.main]
     identifier = "about-me"

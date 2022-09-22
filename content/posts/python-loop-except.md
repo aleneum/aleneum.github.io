@@ -1,8 +1,8 @@
 +++
-title = "Python for loops have en else clause"
+title = "Python for loops have an else clause"
 author = ["Alexander Neumann"]
 date = 2020-09-22T00:00:00+02:00
-lastmod = 2022-09-22T16:17:06+02:00
+lastmod = 2022-09-22T16:39:46+02:00
 tags = ["python"]
 draft = false
 weight = 2001
@@ -40,3 +40,5 @@ Internally, Python will trigger a `StopIteration` when this happens.
 
 Such an else clause may save you some lines of codes when itterating in the middle of a complex function by getting rid of assignment checks or boolean flags.
 However, in the simplified example above using `return` instead of `break` and `else` would most likely produce code that is more robust and easier to comprehend as `for/else` is not a well-known construct.
+
+s
