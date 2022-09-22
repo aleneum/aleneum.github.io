@@ -1,14 +1,10 @@
 +++
-title = "gdpr"
+title = "Legal Notice"
 author = ["Alexander Neumann"]
-date = 2022-09-21
-lastmod = 2022-09-22T17:29:43+02:00
+date = 2022-09-21T00:00:00+02:00
+lastmod = 2022-09-23T00:41:25+02:00
 draft = false
-weight = 9001
-[menu]
-  [menu.main]
-    identifier = "gdpr"
-    weight = 9000
+weight = 2002
 +++
 
 ## Disclaimer {#disclaimer}

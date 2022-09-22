@@ -5,11 +5,11 @@
     <link>https://alexn.eu/tags/python/</link>
     <description>Recent content in python on alexn.eu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0200</lastBuildDate><atom:link href="https://alexn.eu/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0200</lastBuildDate><atom:link href="https://alexn.eu/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python for loops have an else clause</title>
       <link>https://alexn.eu/posts/python-loop-except/</link>
-      <pubDate>Tue, 22 Sep 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0200</pubDate>
       
       <guid>https://alexn.eu/posts/python-loop-except/</guid>
       <description>Something that is not common knowledge is the fact that Python for loop can have an else clause. An else clause is executed when a for loop ends normally without break being called. Internally, Python will trigger a StopIteration when this happens.

@@ -5,11 +5,11 @@
     <link>https://alexn.eu/</link>
     <description>Recent content on alexn.eu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://alexn.eu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2022 00:00:00 +0200</lastBuildDate><atom:link href="https://alexn.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python for loops have an else clause</title>
       <link>https://alexn.eu/posts/python-loop-except/</link>
-      <pubDate>Tue, 22 Sep 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0200</pubDate>
       
       <guid>https://alexn.eu/posts/python-loop-except/</guid>
       <description>Something that is not common knowledge is the fact that Python for loop can have an else clause. An else clause is executed when a for loop ends normally without break being called. Internally, Python will trigger a StopIteration when this happens.
@@ -17,9 +17,19 @@ def check(target, iterable): for element in iterable: if element == target: prin
     </item>
     
     <item>
-      <title>gdpr</title>
+      <title>About Me</title>
+      <link>https://alexn.eu/posts/about/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0200</pubDate>
+      
+      <guid>https://alexn.eu/posts/about/</guid>
+      <description>My name is Alexander Neumann and I am currently working at CareTech OWL as a PostDoc Researcher.
+Photo by Patrick Pollmeier</description>
+    </item>
+    
+    <item>
+      <title>Legal Notice</title>
       <link>https://alexn.eu/posts/gdpr/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0200</pubDate>
       
       <guid>https://alexn.eu/posts/gdpr/</guid>
       <description>Disclaimer Opinions expressed are solely my own and do not express the views or opinions of my employer.
@@ -28,15 +38,6 @@ Privacy Policy This web site is hosted on GitHub Pages. The GitHub Privacy State
 External resources Through this site, you may access some resources that are hoste externally, from the following sources:</description>
     </item>
     
-    <item>
-      <title>about me</title>
-      <link>https://alexn.eu/posts/about/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexn.eu/posts/about/</guid>
-      <description>My name is Alexander Neumann and I am currently working at CareTech OWL as a PostDoc Researcher.
-Figure 1: Photo by Patrick Pollmeier</description>
-    </item>
     
   </channel>
 </rss>

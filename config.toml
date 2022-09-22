@@ -13,11 +13,27 @@ tag = "tags"
 # series = "series"
 
 [[languages.en.menu.main]]
+name = "about me"
+url = "posts/about"
+weight = 50
+
+[[languages.en.menu.main]]
 name = "tags"
 url = "tags/"
 weight = 100
 
+[[languages.en.menu.main]]
+name = "archive"
+url = "archives/"
+weight = 200
+
+[[languages.en.menu.main]]
+name = "gdpr"
+url = "posts/gdpr"
+weight = 1000
+
 [params]
+env = "production"
 custom_css = ["css/custom.css"]
 custom_js = []
 
@@ -33,6 +49,9 @@ socialIcons = [
 ]
 
 ShowCodeCopyButtons = true
+
+[params.cover]
+responsiveImages = true
 
 [sitemap]
   changefreq = 'monthly'
@@ -50,3 +69,4 @@ content = "A blog about research and development work"
 
 [markup.goldmark.renderer]
 unsafe = true
+
