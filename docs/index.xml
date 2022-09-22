@@ -17,6 +17,18 @@ def check(target, iterable): for element in iterable: if element == target: prin
     </item>
     
     <item>
+      <title>gdpr</title>
+      <link>https://alexn.eu/posts/gdpr/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexn.eu/posts/gdpr/</guid>
+      <description>Disclaimer Opinions expressed are solely my own and do not express the views or opinions of my employer.
+Privacy Information/GDPR Notice Personal Data This web site does not collect, store, or process personal data. It does not require the use of cookies.
+Privacy Policy This web site is hosted on GitHub Pages. The GitHub Privacy Statement applies.
+External resources Through this site, you may access some resources that are hoste externally, from the following sources:</description>
+    </item>
+    
+    <item>
       <title>about me</title>
       <link>https://alexn.eu/posts/about/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>

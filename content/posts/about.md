@@ -2,7 +2,7 @@
 title = "about me"
 author = ["Alexander Neumann"]
 date = 2022-09-21
-lastmod = 2022-09-22T16:41:58+02:00
+lastmod = 2022-09-22T17:21:22+02:00
 draft = false
 [menu]
   [menu.main]
