@@ -15,3 +15,8 @@ figcaption {
 figure > p {
     text-align: right;
 }
+
+/* Some issues with current version of papermod (2022-09-22) */
+.highlight > pre {
+    background-color: unset !important;
+}
