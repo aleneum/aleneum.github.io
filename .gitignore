@@ -2,3 +2,4 @@ content/[^.]*
 static/ox-hugo
 public
 *~
+.hugo_build.lock
