@@ -18,8 +18,8 @@ url = "tags/"
 weight = 100
 
 [params]
-custom_css = ["css/custom.css", "css/copy_button.css"]
-custom_js = ["js/copy_button.js"]
+custom_css = ["css/custom.css"]
+custom_js = []
 
 socialIcons = [
     { name = "github", url = "https://github.com/aleneum" },
@@ -32,7 +32,7 @@ socialIcons = [
     { name = "email", url= "mailto:aleneum@gmail.com"}
 ]
 
-
+ShowCodeCopyButtons = true
 
 [sitemap]
   changefreq = 'monthly'
@@ -40,7 +40,7 @@ socialIcons = [
   priority = 0.5
 
 [params.editPost]
-URL =  "https://github.com/aleneum/aleneum.github.io/tree/gh-pages/content"
+URL =  "https://github.com/aleneum/aleneum.github.io/tree/main/content"
 text = "Suggest Changes" # edit text
 appendFilePath = true # to append file path to Edit link
 
