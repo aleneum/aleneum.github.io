@@ -2,3 +2,16 @@
 .skipRender {
     display: none;
 }
+
+.figure-number {
+    display: none;
+}
+
+figcaption {
+    text-align: right;
+    margin-top: -1rem !important;
+}
+
+figure > p {
+    text-align: right;
+}

@@ -2,7 +2,7 @@
 title = "Python for loops have an else clause"
 author = ["Alexander Neumann"]
 date = 2020-09-22T00:00:00+02:00
-lastmod = 2022-09-22T17:28:43+02:00
+lastmod = 2022-09-22T17:45:30+02:00
 tags = ["python"]
 draft = false
 weight = 2001
