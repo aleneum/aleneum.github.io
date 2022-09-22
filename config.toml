@@ -1,25 +1,44 @@
 baseURL = "https://alexn.eu"
-languageCode = "en-us"
-title = "Not much to see..."
-theme = "papermod"
+title = "alexn.eu"
+theme = "PaperMod"
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[languages.en.menu.main]]
+name = "tags"
+url = "tags/"
+weight = 100
 
 [params]
-
-custom_css = ["css/custom.css"]
+custom_css = ["css/custom.css", "css/copy_button.css"]
+custom_js = ["js/copy_button.js"]
 
 socialIcons = [
-    { name = "github", link = "https://github.com/aleneum" },
-    { name = "stackoverflow", link = "https://stackoverflow.com/users/1617563/aleneum"},
-    { name = "twitter", link = "https://twitter.com/fuffzehnzeichen" },
-    { name = "codepen", link = "https://codepen.io/aleneum"},
-    { name = "youtube",  link = "https://www.youtube.com/channel/UCnb4zOgjZ1ojkLWBGWJeYRA"},
-    { name = "linkedin", link = "https://www.linkedin.com/in/alexander-neumann-9288a724/"}
+    { name = "github", url = "https://github.com/aleneum" },
+    { name = "stackoverflow", url = "https://stackoverflow.com/users/1617563/aleneum"},
+    { name = "twitter", url = "https://twitter.com/fuffzehnzeichen" },
+    { name = "codepen", url = "https://codepen.io/aleneum"},
+    { name = "youtube",  url = "https://www.youtube.com/channel/UCnb4zOgjZ1ojkLWBGWJeYRA"},
+    { name = "linkedin", url = "https://www.linkedin.com/in/alexander-neumann-9288a724/"},
+    { name = "orcid", url= "https://orcid.org/0000-0002-2190-5576"},
+    { name = "email", url= "mailto:aleneum@gmail.com"}
 ]
 
-[params.homeInfoParams]
+[params.editPost]
+URL =  "https://github.com/aleneum/aleneum.github.io/tree/gh-pages/content"
+text = "Suggest Changes" # edit text
+appendFilePath = true # to append file path to Edit link
 
-title = "It has to start somewhere ..."
-content = "Something something"
+[params.homeInfoParams]
+title = "Towards smart things and smarter people"
+content = "A blog about research and development work"
 
 [markup.goldmark.renderer]
 unsafe = true
